@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: Corder
+  m_EditorClassIdentifier: 
+  name: Corder
+  description: 
+  frontSprite: {fileID: 21300000, guid: 69c2e6cbf0596094a821dfaafa71e924, type: 3}
+  backSprite: {fileID: 21300000, guid: 6a5861772675ec54c932952753e9f642, type: 3}
+  type1: 0
+  type2: 0
+  maxHp: 100
+  attack: 10
+  defense: 10
+  spAttack: 10
+  spDefense: 10
+  speed: 10
+  expYield: 60
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 81d49f481d9eaf64cb1ba6383608b79d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0f68ce59e184d7040b0927b427f0a0c1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ac2c218c93775b54ea977aa91ec73372, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a164bbaeeb5329c4da4fc0d6c8e272e5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 98b2ca81581d6a843a888cdc829effa6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: faeb0c9abc44b8a43b66d710a71ae829, type: 2}
+    level: 1
+  learnableByItems: []
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: b9c981c794167644084dd0585746b982, type: 2}
+    requiredLevel: 20
+    requiredItem: {fileID: 0}

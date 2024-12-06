@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: Panantel
+  m_EditorClassIdentifier: 
+  name: Panantel
+  description: 
+  frontSprite: {fileID: 21300000, guid: 0f4c379f200102247acd919e8e752404, type: 3}
+  backSprite: {fileID: 21300000, guid: 0e481004ae6ac39409e507105d3998cb, type: 3}
+  type1: 4
+  type2: 6
+  maxHp: 100
+  attack: 10
+  defense: 10
+  spAttack: 10
+  spDefense: 10
+  speed: 10
+  expYield: 64
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e5c28942a54c28343885f0b4d4255208, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 98afa9f62e0e1794793cc880d2151460, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0b224f3b2dab2c74e85d39f80b7958fc, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bbc3d1b99e4e0a940b33390e5aeeb825, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: eabd1922eb7fb0e4cb8164e59b3cae62, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ef2ba9107db84cc4d9fef0a7f9caf37a, type: 2}
+    level: 1
+  learnableByItems: []
+  evolutions: []

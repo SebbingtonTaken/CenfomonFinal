@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bccf44e78a9c1b40bd9e5977646d16d, type: 3}
+  m_Name: Piedra Fuego
+  m_EditorClassIdentifier: 
+  name: P Fuego
+  description: "Piedra volc\xE1nica de color rojo, al entreg\xE1rsela a algunos cenfomones,
+    permiten por medio de una fusi\xF3n su\_metamorfosis."
+  icon: {fileID: -510942069, guid: 09d8e62048ceef442ad5a5636822de2f, type: 3}
+  price: 50
+  isSellable: 1

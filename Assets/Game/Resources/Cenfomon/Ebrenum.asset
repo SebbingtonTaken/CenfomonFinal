@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: Ebrenum
+  m_EditorClassIdentifier: 
+  name: Ebrenum
+  description: 
+  frontSprite: {fileID: 21300000, guid: 507ced916e4adfc42a813297d740534a, type: 3}
+  backSprite: {fileID: 21300000, guid: f583f08360d74604b94c1c86523f9abb, type: 3}
+  type1: 6
+  type2: 3
+  maxHp: 100
+  attack: 10
+  defense: 10
+  spAttack: 10
+  spDefense: 10
+  speed: 10
+  expYield: 64
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 98afa9f62e0e1794793cc880d2151460, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7dcbf003f8855634da364a0ddc62d39c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b0b2a2763d050db479f93e004b6a9069, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 78f5538573090f9448c3e684aca17356, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7e1ef32094b4fca4183932b6a31b8e1c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 44690888254149840a765a334cd34da6, type: 2}
+    level: 1
+  learnableByItems: []
+  evolutions: []

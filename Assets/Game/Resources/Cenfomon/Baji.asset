@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: Baji
+  m_EditorClassIdentifier: 
+  name: Baji
+  description: 
+  frontSprite: {fileID: 21300000, guid: b67e0311e70b2464faf68d10a98bd032, type: 3}
+  backSprite: {fileID: 21300000, guid: fe06f53739c270e45a60824e782f16ce, type: 3}
+  type1: 0
+  type2: 0
+  maxHp: 100
+  attack: 10
+  defense: 10
+  spAttack: 10
+  spDefense: 10
+  speed: 10
+  expYield: 64
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d8a8691461707e84cb8d66fdf3b29f16, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c0e6c6bc07c14314999870229d7e5903, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: f295a3061ad1094488d3d1e585bae103, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fde4a7ec57d991f438d9c5caa9482ed6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38e6955eda188b443b3b62eed71519f0, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 12de12fb632e78747ae02e02b3c550f7, type: 2}
+    level: 1
+  learnableByItems: []
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 2e65beafadac50d4d8640c8f805908d1, type: 2}
+    requiredLevel: 10
+    requiredItem: {fileID: 0}

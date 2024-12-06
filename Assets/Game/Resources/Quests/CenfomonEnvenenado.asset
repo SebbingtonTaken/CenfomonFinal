@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8711201650333f64bbb86e92c7196b1a, type: 3}
+  m_Name: CenfomonEnvenenado
+  m_EditorClassIdentifier: 
+  name: Cenfomon envenenado
+  description: 
+  startDialogue:
+    lines:
+    - Mi cenfomon esta en un estado critico
+    - traeme una pocion rapido, por favor!!
+  inProgressDialogue:
+    lines:
+    - Apresurate!
+  completedDialogue:
+    lines:
+    - Muchas gracias!!
+    - Toma esto como recompensa
+  requiredItem: {fileID: 11400000, guid: b51017134c9a6144f959cf543faa8d6d, type: 2}
+  rewardItem: {fileID: 11400000, guid: a489065d3a4096d438430f99c6764d70, type: 2}
